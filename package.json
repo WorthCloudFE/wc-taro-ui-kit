@@ -1,0 +1,11 @@
+{
+  "name": "@worth-cloud-ui-kit/taro",
+  "version": "1.0.0",
+  "description": "基于taro的UI库",
+  "main": "index.js",
+  "author": "John",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

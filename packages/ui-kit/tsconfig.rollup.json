@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.build",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "declarationDir": "./types",
+    "typeRoots": ["./global.d.ts"]
+  },
+  "include": ["src/**/*", "global.d.ts"]
+}

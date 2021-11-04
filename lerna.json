@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/ui-kit"],
   "npmClient": "yarn",
   "version": "0.0.8-alpha.0"
 }

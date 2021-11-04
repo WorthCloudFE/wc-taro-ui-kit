@@ -17,20 +17,14 @@
   "scripts": {
     "tsc": "tsc --project ./tsconfig.build.json --incremental",
     "dev": "yarn run rollup:dev",
-    "build": "yarn run rollup:pro && tsc --project ./tsconfig.build.json",
+    "build": "yarn run rollup:pro",
     "rollup:pro": "rollup --config ./config/rollup.config.js --environment NODE_ENV:production",
     "rollup:dev": "rollup --config ./config/rollup.config.js --environment NODE_ENV:development --watch"
   },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@tarojs/components": "~3.0.2",
-    "@tarojs/react": "~3.0.2",
-    "@tarojs/taro": "~3.0.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@linaria/rollup": "^3.0.0-beta.13",
@@ -40,6 +34,9 @@
     "@rollup/plugin-image": "^2.1.1",
     "@rollup/plugin-json": "^4.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
+    "@tarojs/components": "~3.0.2",
+    "@tarojs/react": "~3.0.2",
+    "@tarojs/taro": "~3.0.2",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "babel-preset-taro": "3.3.11",

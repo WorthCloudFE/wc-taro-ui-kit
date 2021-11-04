@@ -1,7 +1,7 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 14:47:54
- * @LastEditTime: 2021-11-03 19:15:02
+ * @LastEditTime: 2021-11-04 15:15:45
  * @Author: John
  */
 import { Text, View, Image } from "@tarojs/components";

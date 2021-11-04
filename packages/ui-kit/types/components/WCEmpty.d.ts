@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import "./WCEmpty.scss";
 declare type EmptyProps = {
     tip: string;

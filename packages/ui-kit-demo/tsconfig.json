@@ -5,7 +5,7 @@
     "jsxFactory": "Taro.createElement",
     "baseUrl": ".",
     "paths": {
-      "@worth-cloud-ui-kit/taro": ["../ui-kit/types"]
+      // "@worth-cloud-fe/wc-taro-ui-kit": ["../ui-kit/types"]
     }
   },
   "exclude": ["node_modules", "dist"],

@@ -1,11 +1,12 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 16:43:41
- * @LastEditTime: 2021-11-02 20:05:53
+ * @LastEditTime: 2021-11-04 13:54:30
  * @Author: John
  */
 import { Component } from "react";
 import "./app.scss";
+import "./app.css";
 class App extends Component {
   componentDidMount() {}
 

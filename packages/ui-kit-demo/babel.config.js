@@ -1,7 +1,7 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 16:43:41
- * @LastEditTime: 2021-11-02 20:07:51
+ * @LastEditTime: 2021-11-04 14:49:41
  * @Author: John
  */
 // babel-preset-taro 更多选项和默认值：
@@ -35,7 +35,10 @@ module.exports = {
         extensions: [".tsx", ".ts", ".js", ".json"],
         alias: {
           // For development, we want to alias the library to the source
-          "@worth-cloud-ui-kit/taro": path.join(__dirname, "../ui-kit/dist")
+          "@worth-cloud-fe/wc-taro-ui-kit": path.join(
+            __dirname,
+            "../ui-kit/dist"
+          )
         }
       }
     ]

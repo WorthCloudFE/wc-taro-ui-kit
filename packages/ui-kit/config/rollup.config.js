@@ -1,7 +1,7 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 15:17:24
- * @LastEditTime: 2021-11-04 10:01:53
+ * @LastEditTime: 2021-11-04 14:48:42
  * @Author: John
  */
 import linaria from "@linaria/rollup";
@@ -48,10 +48,14 @@ const options = {
       sourcemap: true,
     },
   ],
-  watchOptions: {
-    include: "src/**", // 监听的文件夹
-    exclude: "node_modules/**", // 排除监听的文件夹
-  },
+  ...(process.env.NODE_ENV !== "production"
+    ? {
+        watchOptions: {
+          include: "src/**", // 监听的文件夹
+          exclude: "node_modules/**", // 排除监听的文件夹
+        },
+      }
+    : {}),
   external: externalPackages,
   plugins: [
     /* rest of your plugins */
@@ -113,19 +117,28 @@ const options = {
 
 export default options;
 
-//@ts-ignore
-const watcher = rollup.watch(options); // 调用rollup的api启动监听
+if (process.env.NODE_ENV != "production") {
+  //@ts-ignore
+  const watcher = rollup.watch(options); // 调用rollup的api启动监听
 
-watcher.on("event", (event) => {
-  console.log("重新打包中...", event.code);
-  if (event.code == "END") {
-    console.log("执行tsc。。。");
-    exec("yarn run tsc", (err) => {
-      console.log("执行tsc完毕");
-      if (err) {
-        // console.error(err);
-        // return;
-      }
-    });
-  }
-}); // 处理监听事件
+  watcher.on("event", (event) => {
+    console.log("重新打包中...", event.code);
+    if (event.code == "END") {
+      console.log("执行tsc。。。");
+      exec("yarn run tsc", (err) => {
+        console.log("执行tsc完毕");
+        if (err) {
+          // console.error(err);
+          // return;
+        }
+      });
+    }
+  }); // 处理监听事件
+} else {
+  exec("yarn run tsc", (err) => {
+    if (err) {
+      // console.error(err);
+      // return;
+    }
+  });
+}

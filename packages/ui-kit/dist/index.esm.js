@@ -10,13 +10,19 @@ var empty = img;
  * @Author: John
  */
 
-function multipleCss(...arg) {
+function multipleCss() {
+  var arg = [];
+
+  for (var _i = 0; _i < arguments.length; _i++) {
+    arg[_i] = arguments[_i];
+  }
+
   return arg.join(" ");
 }
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 14:47:54
- * @LastEditTime: 2021-11-03 19:15:02
+ * @LastEditTime: 2021-11-04 15:15:45
  * @Author: John
  */
 
@@ -26,7 +32,7 @@ function multipleCss(...arg) {
  */
 
 
-const Empty = props => {
+var Empty = function (props) {
   return React.createElement(View, {
     className: multipleCss("v1pel40j", "WCEmpty")
   }, React.createElement(Image, {
@@ -38,23 +44,28 @@ const Empty = props => {
 };
 
 function WCSwitch(props) {
-  const {
-    value = false
-  } = props;
-  const [switchValue, setSwitchValue] = useState(value);
-  useEffect(() => {
+  var _a = props.value,
+      value = _a === void 0 ? false : _a;
+
+  var _b = useState(value),
+      switchValue = _b[0],
+      setSwitchValue = _b[1];
+
+  useEffect(function () {
     setSwitchValue(value);
     console.log("初始化switch", value);
-    return () => {};
+    return function () {};
   }, [value]);
   return React.createElement(React.Fragment, null, React.createElement(View, {
     className: multipleCss("v1x24jfv", switchValue ? "v8bk5sa" : ""),
-    onClick: e => {
+    onClick: function (e) {
+      var _a;
+
       e.stopPropagation();
       if (props.disable) return;
       vibrateShort();
       setSwitchValue(!switchValue);
-      props.onChange?.(!switchValue);
+      (_a = props.onChange) === null || _a === void 0 ? void 0 : _a.call(props, !switchValue);
     }
   }, React.createElement(View, {
     className: multipleCss("vdfyanc", switchValue ? "vtf4qjp" : "")

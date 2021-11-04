@@ -1,6 +1,6 @@
 {
   "name": "@worth-cloud-fe/wc-taro-ui-kit",
-  "version": "0.0.6-alpha.0",
+  "version": "0.0.7-alpha.0",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "source": "src/index.ts",

@@ -1,5 +1,5 @@
 {
-  "name": "ui-kit",
+  "name": "@worth-cloud-ui-kit/taro",
   "version": "0.0.1-alpha.0",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
@@ -54,5 +54,6 @@
     "@tarojs/react": ">=3",
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
-  }
+  },
+  "gitHead": "9554372e242abe70e5ffe37f9301798484d7ee0d"
 }

@@ -57,6 +57,7 @@
   "peerDependencies": {
     "@tarojs/components": ">=3",
     "@tarojs/react": ">=3",
+    "@tarojs/taro": ">=3",
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
   },

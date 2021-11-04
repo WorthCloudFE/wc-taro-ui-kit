@@ -4,15 +4,15 @@
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "source": "src/index.ts",
-  "types": "types",
+  "types": "types/index.d.ts",
   "author": "john",
   "license": "MIT",
   "repository": "worth-cloud-ui-kit/taro",
   "sideEffects": false,
   "files": [
-    "./dist",
-    "./lib",
-    "./types"
+    "dist",
+    "lib",
+    "types"
   ],
   "scripts": {
     "tsc": "tsc --project ./tsconfig.build.json --incremental",

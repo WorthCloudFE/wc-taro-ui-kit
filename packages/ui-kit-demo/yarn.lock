@@ -1630,6 +1630,13 @@
   resolved "https://registry.npmmirror.com/@stencil/core/download/@stencil/core-2.4.0.tgz#17b45629c8986e35dcbce3f7dab7d64beede83f2"
   integrity sha1-F7RWKciYbjXcvOP32rfWS+7eg/I=
 
+"@stencil/core@~1.8.1":
+  version "1.8.12"
+  resolved "https://registry.npmmirror.com/@stencil/core/download/@stencil/core-1.8.12.tgz?cache=0&sync_timestamp=1635907563189&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40stencil%2Fcore%2Fdownload%2F%40stencil%2Fcore-1.8.12.tgz#03d54cda940d2ca3a0eff5e839435815db6c3848"
+  integrity sha1-A9VM2pQNLKOg7/XoOUNYFdtsOEg=
+  dependencies:
+    typescript "3.8.2"
+
 "@stylelint/postcss-css-in-js@^0.37.1":
   version "0.37.2"
   resolved "https://registry.npm.taobao.org/@stylelint/postcss-css-in-js/download/@stylelint/postcss-css-in-js-0.37.2.tgz#7e5a84ad181f4234a2480803422a47b8749af3d2"
@@ -1651,6 +1658,13 @@
   integrity sha1-sWZeLEYaLNkvTBu/UNVFTeDUtCE=
   dependencies:
     defer-to-connect "^1.0.1"
+
+"@tarojs/api@3.0.29":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/api/download/@tarojs/api-3.0.29.tgz?cache=0&sync_timestamp=1635491347162&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Fapi%2Fdownload%2F%40tarojs%2Fapi-3.0.29.tgz#e87a74d29fced73a35b4bfe3d4aca4c361e56035"
+  integrity sha1-6Hp00p/O1zo1tL/j1Kykw2HlYDU=
+  dependencies:
+    "@tarojs/runtime" "3.0.29"
 
 "@tarojs/api@3.2.10":
   version "3.2.10"
@@ -1787,6 +1801,21 @@
     omit.js "^1.0.0"
     resolve-pathname "^3.0.0"
     swiper "6.8.0"
+    weui "^1.1.2"
+
+"@tarojs/components@~3.0.2":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/components/download/@tarojs/components-3.0.29.tgz?cache=0&sync_timestamp=1635491346379&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Fcomponents%2Fdownload%2F%40tarojs%2Fcomponents-3.0.29.tgz#b579489e74aa2278809f0389d0ceb0e757158539"
+  integrity sha1-tXlInnSqIniAnwOJ0M6w51cVhTk=
+  dependencies:
+    "@stencil/core" "~1.8.1"
+    "@tarojs/taro" "3.0.29"
+    better-scroll "^1.14.1"
+    classnames "^2.2.5"
+    intersection-observer "^0.7.0"
+    omit.js "^1.0.0"
+    resolve-pathname "^3.0.0"
+    swiper "4.4.2"
     weui "^1.1.2"
 
 "@tarojs/helper@3.2.10":
@@ -1962,6 +1991,15 @@
     react-reconciler "0.26.1"
     scheduler "^0.20.1"
 
+"@tarojs/react@~3.0.2":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/react/download/@tarojs/react-3.0.29.tgz#06230fc5b058659156c5e9bf08eb0032143dde78"
+  integrity sha1-BiMPxbBYZZFWxem/COsAMhQ93ng=
+  dependencies:
+    "@tarojs/runtime" "3.0.29"
+    react-reconciler "^0.23.0"
+    scheduler "^0.17.0"
+
 "@tarojs/router-rn@3.2.10":
   version "3.2.10"
   resolved "https://registry.npmmirror.com/@tarojs/router-rn/download/@tarojs/router-rn-3.2.10.tgz#a578308646e47cf03f303808d82fc6a35a0302fd"
@@ -1977,6 +2015,16 @@
     react-native-gesture-handler "^1.8.0"
     react-native-safe-area-context "^3.1.8"
     react-native-screens "^2.11.0"
+
+"@tarojs/router@3.0.29":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/router/download/@tarojs/router-3.0.29.tgz?cache=0&sync_timestamp=1635491621860&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Frouter%2Fdownload%2F%40tarojs%2Frouter-3.0.29.tgz#b72a6732fe786f4d0b9fd48f315164def505fc6c"
+  integrity sha1-typnMv54b00Ln9SPMVFk3vUF/Gw=
+  dependencies:
+    "@tarojs/runtime" "3.0.29"
+    history "^4.10.1"
+    universal-router "^8.3.0"
+    url-parse "^1.4.7"
 
 "@tarojs/router@3.2.10":
   version "3.2.10"
@@ -2015,6 +2063,13 @@
   dependencies:
     "@tarojs/components-rn" "3.2.10"
     "@tarojs/router-rn" "3.2.10"
+
+"@tarojs/runtime@3.0.29":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/runtime/download/@tarojs/runtime-3.0.29.tgz?cache=0&sync_timestamp=1635491347581&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Fruntime%2Fdownload%2F%40tarojs%2Fruntime-3.0.29.tgz#cb15cc5db77f4affb8d9417870bffee67308513a"
+  integrity sha1-yxXMXbd/Sv+42UF4cL/+5nMIUTo=
+  dependencies:
+    lodash-es "4.17.15"
 
 "@tarojs/runtime@3.2.10":
   version "3.2.10"
@@ -2057,6 +2112,20 @@
   version "3.3.12"
   resolved "https://registry.npmmirror.com/@tarojs/shared/download/@tarojs/shared-3.3.12.tgz?cache=0&sync_timestamp=1635490865596&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Fshared%2Fdownload%2F%40tarojs%2Fshared-3.3.12.tgz#dd10de6842e3557057397fb665891b2f14bf3d05"
   integrity sha1-3RDeaELjVXBXOX+2ZYkbLxS/PQU=
+
+"@tarojs/taro-h5@3.0.29":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/taro-h5/download/@tarojs/taro-h5-3.0.29.tgz?cache=0&sync_timestamp=1635491348236&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Ftaro-h5%2Fdownload%2F%40tarojs%2Ftaro-h5-3.0.29.tgz#ba09717f07e27ef9b5c9c284d719aab8166e2088"
+  integrity sha1-uglxfwfifvm1ycKE1xmquBZuIIg=
+  dependencies:
+    "@tarojs/api" "3.0.29"
+    "@tarojs/router" "3.0.29"
+    "@tarojs/runtime" "3.0.29"
+    base64-js "^1.3.0"
+    jsonp-retry "^1.0.3"
+    mobile-detect "^1.4.2"
+    raf "^3.4.1"
+    whatwg-fetch "^3.4.0"
 
 "@tarojs/taro-h5@3.2.10":
   version "3.2.10"
@@ -2128,6 +2197,14 @@
     react-native-stylekit "^1.0.0"
     react-native-syan-image-picker "0.4.10"
     react-native-unimodules "^0.11.0"
+
+"@tarojs/taro@3.0.29", "@tarojs/taro@~3.0.2":
+  version "3.0.29"
+  resolved "https://registry.npmmirror.com/@tarojs/taro/download/@tarojs/taro-3.0.29.tgz?cache=0&sync_timestamp=1635490846336&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tarojs%2Ftaro%2Fdownload%2F%40tarojs%2Ftaro-3.0.29.tgz#f2be474cd71eeda6627ae55400b8e99bf2bdd0a2"
+  integrity sha1-8r5HTNce7aZieuVUALjpm/K90KI=
+  dependencies:
+    "@tarojs/api" "3.0.29"
+    "@tarojs/taro-h5" "3.0.29"
 
 "@tarojs/taro@3.2.10":
   version "3.2.10"
@@ -2638,7 +2715,12 @@
     "@xtuc/long" "4.2.2"
 
 "@worth-cloud-fe/wc-taro-ui-kit@file:../ui-kit":
-  version "0.0.8-alpha.0"
+  version "0.0.9-alpha.0"
+  dependencies:
+    "@tarojs/components" "~3.0.2"
+    "@tarojs/react" "~3.0.2"
+    "@tarojs/taro" "~3.0.2"
+    linaria "^3.0.0-beta.13"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -5662,6 +5744,13 @@ dom-walk@^0.1.0:
   version "0.1.2"
   resolved "https://registry.npm.taobao.org/dom-walk/download/dom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
   integrity sha1-DFSL7wSPTR8qlySQAiNgYNqj/YQ=
+
+dom7@^2.1.2:
+  version "2.1.5"
+  resolved "https://registry.npmmirror.com/dom7/download/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha1-p5QRAXgAsx2EAAcM2uu/ySwfY3c=
+  dependencies:
+    ssr-window "^2.0.0"
 
 dom7@^3.0.0:
   version "3.0.0"
@@ -12203,6 +12292,16 @@ react-reconciler@0.26.1:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
+react-reconciler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.npmmirror.com/react-reconciler/download/react-reconciler-0.23.0.tgz?cache=0&sync_timestamp=1635957857024&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-reconciler%2Fdownload%2Freact-reconciler-0.23.0.tgz#5f0bfc35dda030b0220c07de11f93131c5d6db63"
+  integrity sha1-Xwv8Nd2gMLAiDAfeEfkxMcXW22M=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.17.0"
+
 react-refresh@0.9.0:
   version "0.9.0"
   resolved "https://registry.npmmirror.com/react-refresh/download/react-refresh-0.9.0.tgz?cache=0&sync_timestamp=1635732887121&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-refresh%2Fdownload%2Freact-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
@@ -13011,6 +13110,14 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
+scheduler@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.npmmirror.com/scheduler/download/scheduler-0.17.0.tgz?cache=0&sync_timestamp=1635956148089&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fscheduler%2Fdownload%2Fscheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
+  integrity sha1-fJxnPk7HgfrIU5J5FtHEJrbz3f4=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 scheduler@^0.20.1, scheduler@^0.20.2:
   version "0.20.2"
   resolved "https://registry.npmmirror.com/scheduler/download/scheduler-0.20.2.tgz?cache=0&sync_timestamp=1635819785737&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fscheduler%2Fdownload%2Fscheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
@@ -13526,6 +13633,16 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/ssr-window/download/ssr-window-1.0.1.tgz#30752a6a4666e7767f0b7e6aa6fc2fdbd0d9b369"
+  integrity sha1-MHUqakZm53Z/C35qpvwv29DZs2k=
+
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/ssr-window/download/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha1-mMMBrvmVIzF/jWlhjwAQeRCW78Q=
+
 ssr-window@^3.0.0, ssr-window@^3.0.0-alpha.1:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/ssr-window/download/ssr-window-3.0.0.tgz#fd5b82801638943e0cc704c4691801435af7ac37"
@@ -14032,6 +14149,14 @@ svg-tags@^1.0.0:
   resolved "https://registry.nlark.com/svg-tags/download/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
 
+swiper@4.4.2:
+  version "4.4.2"
+  resolved "https://registry.npmmirror.com/swiper/download/swiper-4.4.2.tgz#3a35237cbf4870034784e158b4197b65b763d647"
+  integrity sha1-OjUjfL9IcANHhOFYtBl7Zbdj1kc=
+  dependencies:
+    dom7 "^2.1.2"
+    ssr-window "^1.0.1"
+
 swiper@6.8.0:
   version "6.8.0"
   resolved "https://registry.npmmirror.com/swiper/download/swiper-6.8.0.tgz#61c850f49ba778e403f00a01fe0b768bd85d0d20"
@@ -14534,6 +14659,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.nlark.com/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@3.8.2:
+  version "3.8.2"
+  resolved "https://registry.npmmirror.com/typescript/download/typescript-3.8.2.tgz?cache=0&sync_timestamp=1636011666826&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Ftypescript%2Fdownload%2Ftypescript-3.8.2.tgz#91d6868aaead7da74f493c553aeff76c0c0b1d5a"
+  integrity sha1-kdaGiq6tfadPSTxVOu/3bAwLHVo=
 
 typescript@^3.2.2:
   version "3.9.10"

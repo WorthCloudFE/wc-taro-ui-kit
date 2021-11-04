@@ -1,7 +1,7 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 16:43:41
- * @LastEditTime: 2021-11-04 14:10:40
+ * @LastEditTime: 2021-11-04 16:16:59
  * @Author: John
  */
 const config = {
@@ -14,7 +14,7 @@ const config = {
     828: 1.81 / 2
   },
   sourceRoot: "src",
-  outputRoot: "dist",
+  outputRoot: `dist/${process.env.TARO_ENV}`,
   plugins: [],
   defineConstants: {},
   copy: {

@@ -1,5 +1,5 @@
 {
-  "miniprogramRoot": "dist/",
+  "miniprogramRoot": "dist/weapp",
   "projectname": "ui-kit-demo",
   "description": "",
   "appid": "wx53ce7c190d05d050",

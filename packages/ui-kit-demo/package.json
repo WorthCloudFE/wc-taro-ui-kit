@@ -45,7 +45,8 @@
     "@worth-cloud-fe/wc-taro-ui-kit": "file:../ui-kit",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "taro-hooks": "latest"
+    "taro-hooks": "latest",
+    "linaria": "^3.0.0-beta.13"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
@@ -63,7 +64,6 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "linaria": "^3.0.0-beta.13",
     "stylelint": "9.3.0",
     "typescript": "^4.2.3"
   },

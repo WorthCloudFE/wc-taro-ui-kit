@@ -1,6 +1,6 @@
 {
   "name": "@worth-cloud-fe/wc-taro-ui-kit",
-  "version": "0.0.9-alpha.0",
+  "version": "0.0.10-alpha.0",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -56,9 +56,9 @@
     "@tarojs/components": ">=3",
     "@tarojs/react": ">=3",
     "@tarojs/taro": ">=3",
+    "linaria": ">=3.0.0-beta.13",
     "react": ">=16.13.0",
-    "react-dom": ">=16.13.0",
-    "linaria": ">=3.0.0-beta.13"
+    "react-dom": ">=16.13.0"
   },
   "gitHead": "442fc4411d59949a182ce50467bd723dbd149aa3"
 }

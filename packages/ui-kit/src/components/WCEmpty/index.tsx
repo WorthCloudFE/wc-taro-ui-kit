@@ -1,15 +1,15 @@
 /*
  * @LastEditors: John
  * @Date: 2021-11-02 14:47:54
- * @LastEditTime: 2021-11-04 15:15:45
+ * @LastEditTime: 2021-11-04 17:48:02
  * @Author: John
  */
 import { Text, View, Image } from "@tarojs/components";
 import React from "react";
 import { css } from "linaria";
-import empty from "../assets/images/empty@2x.png";
-import { multipleCss } from "../utils/index";
-import "./WCEmpty.scss";
+import empty from "../../assets/images/empty@2x.png";
+import "./index.scss";
+import { multipleCss } from "@/utils";
 type EmptyProps = {
   tip: string;
   slot?: any;

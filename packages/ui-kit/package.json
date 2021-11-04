@@ -7,6 +7,8 @@
   "types": "types",
   "author": "john",
   "license": "MIT",
+  "repository": "worth-cloud-ui-kit/taro",
+  "sideEffects": false,
   "files": [
     "./dist",
     "./lib",
@@ -55,5 +57,5 @@
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
   },
-  "gitHead": "9554372e242abe70e5ffe37f9301798484d7ee0d"
+  "gitHead": "a73cd39f3df16a7f80b6513d7cf42443d880db21"
 }

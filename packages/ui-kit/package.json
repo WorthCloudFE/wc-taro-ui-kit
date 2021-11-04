@@ -1,5 +1,5 @@
 {
-  "name": "@worth-cloud-ui-kit/taro",
+  "name": "@worth-cloud-fe/taro",
   "version": "0.0.5-alpha.0",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
   "types": "types/index.d.ts",
   "author": "john",
   "license": "MIT",
-  "repository": "worth-cloud-ui-kit/taro",
+  "repository": "worth-cloud-fe/taro",
   "sideEffects": false,
   "files": [
     "dist",

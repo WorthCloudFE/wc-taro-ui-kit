@@ -1,5 +1,5 @@
 {
-  "name": "@worth-cloud-ui-kit/taro",
+  "name": "@worth-cloud-fe/wc-taro-ui-kit",
   "version": "1.0.0",
   "description": "基于taro的UI库",
   "main": "index.js",

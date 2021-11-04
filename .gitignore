@@ -16,5 +16,6 @@ package-lock.json
 
 # Build outputs
 packages/ui-kit/lib/
+packages/ui-kit/types/
 packages/**/dist/
 dist/

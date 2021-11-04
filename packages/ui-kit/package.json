@@ -21,6 +21,9 @@
     "rollup:pro": "rollup --config ./config/rollup.config.js --environment NODE_ENV:production",
     "rollup:dev": "rollup --config ./config/rollup.config.js --environment NODE_ENV:development --watch"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@tarojs/components": "~3.0.2",
     "@tarojs/react": "~3.0.2",
@@ -57,5 +60,5 @@
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
   },
-  "gitHead": "a73cd39f3df16a7f80b6513d7cf42443d880db21"
+  "gitHead": "442fc4411d59949a182ce50467bd723dbd149aa3"
 }
